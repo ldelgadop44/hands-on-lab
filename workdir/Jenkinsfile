@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    ARTIFACT_ID = "ldelgadop/webapp:${env.BUILD_NUMBER}"
+    ARTIFACT_ID = "ldelgadop/workdir:${env.BUILD_NUMBER}"
   }
 
   stages {
